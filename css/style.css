@@ -1,0 +1,100 @@
+body {
+   margin: 0;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+
+#home {
+    background-color: #9AC5F4;
+    height: 500px;
+    
+}
+
+#education {
+    background-color: #99DBF5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#about-me {
+    background-color:bisque;
+    justify-content: left;
+    align-items: start;
+    height: 200px;
+}
+
+img {
+    border-radius: 10%;
+    height: 180px;
+    width: 250px;
+}
+
+.edu-table {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 600px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 75px;
+}
+
+.bt {
+    border-top: 2px solid black;
+}
+
+.bb {
+    border-bottom: 2px solid black;
+}
+
+.br {
+    border-right: 2px solid black;
+}
+
+.bl {
+    border-left: 2px solid black;
+}
+
+.eh1 {
+    grid-column: span 2;
+    text-align: center;
+
+}
+
+
+.ulnavbr {
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: yellowgreen;
+}
+
+.navbr {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbr a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbr:hover {
+    background-color: black;
+}
+
+.courses {
+    list-style: none;
+}
