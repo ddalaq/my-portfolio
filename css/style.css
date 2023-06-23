@@ -46,7 +46,7 @@ img {
     grid-template-rows: 1fr 1fr 1fr;
     width: 600px;
     height: 500px;
-    background-color: blanchedalmond;
+    
     border-radius: 10px;
     text-align: left;
     margin-left: 75px;
@@ -81,7 +81,7 @@ img {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: yellowgreen;
+    
     text-align: right;
 }
 
@@ -120,4 +120,35 @@ img {
 
 .pr {
     float: right;
+}
+
+@media (max-width: 600px) {
+    .navbr {
+        display: block;
+    }
+
+    #home {
+        display: block;
+        text-align: center;
+        height: 50vh;
+        
+    }
+
+    #education {
+        display: block;
+        height: 120vh;
+        padding-top: 10px;
+    }
+
+    img {
+        height: 150px;
+        width: 200px;
+    }
+
+    .edu-table {
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+       
+    }
 }
