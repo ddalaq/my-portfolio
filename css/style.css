@@ -27,9 +27,12 @@ body {
 
 #about-me {
     background-color:bisque;
-    justify-content: left;
-    align-items: start;
-    height: 200px;
+    height: 250px;
+}
+
+#footer {
+    background-color: powderblue;
+    padding: .5px;
 }
 
 img {
@@ -79,6 +82,7 @@ img {
     margin: 0;
     padding: 0;
     background-color: yellowgreen;
+    text-align: right;
 }
 
 .navbr {
@@ -89,6 +93,7 @@ img {
 .navbr a {
     text-decoration: none;
     color: whitesmoke;
+    text-transform: uppercase;
 }
 
 .navbr:hover {
@@ -97,4 +102,22 @@ img {
 
 .courses {
     list-style: none;
+}
+
+
+
+#about-me > div {
+    width: 50%;
+}
+
+.ab {
+    text-align: center;
+}
+
+#footer p {
+    display: inline-block;
+}
+
+.pr {
+    float: right;
 }
