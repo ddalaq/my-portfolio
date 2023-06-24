@@ -123,7 +123,7 @@ img {
     float: right;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 748px) {
     .navbr {
         display: block;
         width: fit-content;
@@ -139,7 +139,7 @@ img {
 
     #education {
         display: block;
-        height: 110vh;
+        height: 150vh;
         padding-top: 10px;
     }
 
