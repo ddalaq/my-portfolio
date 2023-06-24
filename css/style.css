@@ -152,4 +152,8 @@ img {
         margin-bottom: 100px;
         padding-left: 8%;
     }
+
+    #about-me {
+        height: 700px;
+    }
 }
