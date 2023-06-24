@@ -1,5 +1,6 @@
 body {
    margin: 0;
+   background-color: aqua;
 }
 
 
@@ -14,24 +15,24 @@ body {
 
 
 #home {
-    background-color: #9AC5F4;
+    
     height: 500px;
     
 }
 
 #education {
-    background-color: #99DBF5;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 #about-me {
-    background-color:bisque;
+   
     height: 250px;
 }
 
 #footer {
-    background-color: powderblue;
+   
     padding: .5px;
 }
 
@@ -125,6 +126,8 @@ img {
 @media (max-width: 600px) {
     .navbr {
         display: block;
+        width: fit-content;
+        font-size: small;
     }
 
     #home {
@@ -136,7 +139,7 @@ img {
 
     #education {
         display: block;
-        height: 120vh;
+        height: 110vh;
         padding-top: 10px;
     }
 
@@ -154,6 +157,10 @@ img {
     }
 
     #about-me {
-        height: 700px;
+        height: 400px;
+    }
+
+    .profile-pic {
+        margin-top: 50px;
     }
 }
