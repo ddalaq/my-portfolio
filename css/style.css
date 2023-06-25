@@ -1,6 +1,5 @@
 body {
    margin: 0;
-   background-color: aqua;
 }
 
 
@@ -47,8 +46,6 @@ img {
     grid-template-rows: 1fr 1fr 1fr;
     width: 600px;
     height: 500px;
-    
-    border-radius: 10px;
     text-align: left;
     margin-left: 75px;
 }
@@ -67,6 +64,10 @@ img {
 
 .bl {
     border-left: 2px solid black;
+}
+
+.border-rad {
+    border-radius: 10%;
 }
 
 .eh1 {
@@ -93,12 +94,12 @@ img {
 
 .navbr a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     text-transform: uppercase;
 }
 
 .navbr:hover {
-    background-color: black;
+    background-color:deepskyblue;
 }
 
 .courses {
@@ -127,7 +128,7 @@ img {
     .navbr {
         display: block;
         width: fit-content;
-        font-size: small;
+        font-size: x-small;
     }
 
     #home {
@@ -158,9 +159,29 @@ img {
 
     #about-me {
         height: 400px;
+        margin-bottom: 50px;
     }
 
     .profile-pic {
         margin-top: 50px;
     }
 }
+
+
+.gradient-background {
+    background: linear-gradient(280deg, #FFC82D , #0051BA, #E8000D, #85898A);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
