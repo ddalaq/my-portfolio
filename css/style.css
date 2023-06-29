@@ -2,13 +2,15 @@ body {
    margin: 0;
 }
 
-
+hr {
+    border: double;
+}
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
     gap: 2rem;
 }
 
@@ -20,9 +22,9 @@ body {
 }
 
 #education {
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
 }
 
 #about-me {
@@ -32,74 +34,36 @@ body {
 
 #footer {
    
-    padding: .5px;
+    height: 200px;
 }
 
-img {
+.profile-pic {
     border-radius: 10%;
     height: 180px;
     width: 250px;
 }
 
+.school-logo {
+    border-radius: 10%;
+    height: 70px;;
+    display: inline-block
+}
+
 .edu-table {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: 600px;
+    display: inline;
+    width: 400px;
     height: 500px;
     text-align: left;
     margin-left: 75px;
 }
 
-.bt {
-    border-top: 2px solid black;
-}
 
-.bb {
-    border-bottom: 2px solid black;
-}
-
-.br {
-    border-right: 2px solid black;
-}
-
-.bl {
-    border-left: 2px solid black;
-}
-
-.border-rad {
-    border-radius: 10%;
-}
 
 .eh1 {
-    grid-column: span 2;
     text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
 
-}
-
-
-.ulnavbr {
-    position: fixed;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    text-align: right;
-}
-
-.navbr {
-    display: inline-block;
-    padding: 10px;
-}
-
-.navbr a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-}
-
-.navbr:hover {
-    background-color:deepskyblue;
 }
 
 .courses {
@@ -114,21 +78,18 @@ img {
 
 .ab {
     text-align: center;
+    margin-bottom: 100px;
 }
 
-#footer p {
-    display: inline-block;
-}
 
 .pr {
     float: right;
 }
 
 @media (max-width: 748px) {
-    .navbr {
-        display: block;
-        width: fit-content;
-        font-size: x-small;
+
+    hr {
+        width: 80%;
     }
 
     #home {
@@ -139,14 +100,23 @@ img {
     }
 
     #education {
+        height: 50%;
+    }
+
+    #footer {
+        height: 15vh;
+    }
+
+    .edu1 {
         display: block;
-        height: 150vh;
+        height: 90vh;
         padding-top: 10px;
     }
 
-    img {
-        height: 150px;
-        width: 200px;
+    .school-logo {
+        height: 120px;
+        width: 150px;
+        margin-top: 50px;
     }
 
     .edu-table {
@@ -155,15 +125,22 @@ img {
         margin-top: 50px;
         margin-bottom: 100px;
         padding-left: 8%;
+        text-align: center;
+    }
+
+    ul {
+        text-align: left;
     }
 
     #about-me {
-        height: 400px;
+        height: 300px;
         margin-bottom: 50px;
     }
 
     .profile-pic {
         margin-top: 50px;
+        height: 150px;
+        width: 200px;
     }
 }
 
