@@ -1,5 +1,14 @@
 body {
    margin: 0;
+   color: #85898A;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, ul {
+    font-family: 'Roboto Slab', serif;
 }
 
 hr {
@@ -104,7 +113,8 @@ hr {
     }
 
     #footer {
-        height: 15vh;
+        height: 130px;
+        margin-top: 200px;
     }
 
     .edu1 {
@@ -120,11 +130,6 @@ hr {
     }
 
     .edu-table {
-        width: 50%;
-        height: 30%;
-        margin-top: 50px;
-        margin-bottom: 100px;
-        padding-left: 8%;
         text-align: center;
     }
 
@@ -134,7 +139,7 @@ hr {
 
     #about-me {
         height: 300px;
-        margin-bottom: 50px;
+        padding-top: 50px;
     }
 
     .profile-pic {
